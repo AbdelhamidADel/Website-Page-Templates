@@ -1,0 +1,99 @@
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+   /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        h1{font-family: 'Oswald', sans-serif;
+            font-family: 'Silkscreen', cursive;
+         letter-spacing:10px;}
+        body {
+            background-color: #b5eeff;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control { overflow:hidden; 
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        
+          
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        #button{  background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+            
+        }
+        #button:hover {
+            
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)}
